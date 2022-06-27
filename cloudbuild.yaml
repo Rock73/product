@@ -46,6 +46,7 @@ steps:
         kind: Service
         metadata:
           name: $_PROJECT_NAME
+          namespace: shop
           labels:
             app: $_PROJECT_NAME
         spec:
